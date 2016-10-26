@@ -12,19 +12,19 @@ dependencies {
     compile 'com.google.android.gms:play-services-gcm:9.6.1'
     compile 'com.google.android.gms:play-services-maps:9.6.1'
     compile 'com.google.android.gms:play-services-vision:9.6.1'
-    compile 'com.android.support:support-core-ui:24.2.1'
-    compile 'com.android.support:support-compat:24.2.1'
-    compile 'com.android.support:support-core-utils:24.2.1'
+    compile 'com.android.support:support-core-ui:23.2.1'
+    compile 'com.android.support:support-compat:23.2.1'
+    compile 'com.android.support:support-core-utils:23.2.1'
     compile 'net.hockeyapp.android:HockeySDK:4.0.1'
     compile 'com.googlecode.mp4parser:isoparser:1.0.6'
 }
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion '24.0.2'
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
 
     useLibrary 'org.apache.http.legacy'
-    defaultConfig.applicationId = "org.telegram.messenger"
+    defaultConfig.applicationId = "ir.amatis.vistagram"
 
     sourceSets.main.jniLibs.srcDirs = ['./jni/']
 
